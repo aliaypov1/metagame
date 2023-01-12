@@ -1,0 +1,49 @@
+@media(max-width:768px){
+    .footer__grids{
+        grid-template-columns: 1fr;
+        text-align: center;
+        
+    }
+    .menu__content{
+        grid-template-columns: 1fr;
+        
+    }
+    .menu__card{
+        text-align: center;
+    }
+    .hero__grid{
+        grid-template-columns: 1fr;
+      
+        
+    }
+    .menu__card1{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .burger{
+        display: block;
+    }
+    .header__link{
+        display: none;
+    }
+    .header__nav{
+        display: none;
+    }
+   
+    
+}
+@media(max-width:460px){
+    .modal__content{
+        width: 290px;
+        padding: 0 35px;
+    }
+    .modal__title input{
+        width: 210px;
+    }
+    .cards{
+        grid-template-columns: 1fr ;
+    }
+}
